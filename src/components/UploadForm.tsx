@@ -115,7 +115,7 @@ export default function EnhancedGifStudio() {
     }, 500);
 
     try {
-      const response = await fetch("http://localhost:3001/gif", {
+      const response = await fetch("https://ffmpeg-gif-backend.onrender.com/gif", {
         method: "POST",
         body: formData,
       });
